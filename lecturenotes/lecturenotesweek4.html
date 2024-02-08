@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Week 4 Notes</title>
+    <style>
+        td, th {border: 1px solid black;}
+    </style>
+</head>
+<body>
+    <h1>Tables and Forms Day</h1>
+        <h2>Tables</h2>
+            <table>
+                <caption>World Population</caption>
+                <!-- tr is means row cell-->
+                <tr> <!-- th is for table heading-->
+                    <th>Country</th>
+                    <th>Population</th>
+                    <th>% of World Population</th>
+                </tr>
+                <tr>
+                    <!-- td is table data -->
+                    <td>China</td>
+                    <td>1,403,830,640</td>
+                    <td>18%</td>
+                </tr>
+                <tr>
+                    <td>India</td>
+                    <td>1,365,529,124</td>
+                    <td>17.5%</td>
+                </tr>
+                <tr>
+                    <td>United States</td>
+                    <td>330,070,331</td>
+                    <td>4.23%</td>
+                </tr>
+            </table>
+        <h2>Forms</h2>
+            <!-- all form elements inside form tag -->
+            <form action="" method="post">
+                <!-- input type text is for short  text -->
+                <label for= "fullname">Name:</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for= "specialinstruction">Special Instructions:</label><br>
+                <textarea id="specialinstructions" name="specialinstructions" row="3" cols="60"></textarea>
+                <p>Delivery Instructions:</p>
+                <!-- name value links radio buttons -->
+                <!-- ids must be unique for each button -->
+                <input type="radio" id="pickup" name="pickupdelivery" value="customer will pickup">
+                <label for="pickup">pickup</label>
+                <input type="radio" id="delivery" name="pickupdelivery" value="customer chose delivery">
+                <label for="delivery">delivery</label>
+                <p>Do you want extra sauce?</p>
+                <input type="checkbox" id="extra" name="extrasauce" value="yes">
+                <label for="extra">yes</label><br>
+                <label for="neighborhood">Neighborhood</label><br>
+                <!-- all values must be in an option for select-->
+                <select id="neighborhood" name="neighborhood">
+                    <option value="wescott">Wescott</option>
+                    <option value="downtown">Downtown</option>
+                    <option value="eastwood">Eastwood</option>
+                </select><br>
+                <!-- button text is in the value for a submit -->
+                <input type="submit" value="Send Form">
+            </form>
+</body>
+</html>
