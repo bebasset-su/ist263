@@ -1,0 +1,18 @@
+body{background-color: #010715;}
+body{color: #eff1f5;}
+nav a:hover{color: #37bf2f;}
+nav a:hover{background-color: #667cac;}
+a{color: #9a9d6f;}
+h1{color: #eff1f5;}
+nav{background-color: #1a253d;}
+nav a{color: #9a9d6f;}
+nav{padding: 10px}
+nav {margin-bottom: 30px}
+.img1 {float: left; margin-right: 10px;}
+.bio {float: left; margin-right: 10px;}
+.clear {margin-right: 10px;}
+.quote {float: right;}
+.copyright {float: left;}
+div.section1 {float: both; margin-right: 10px;flex: 2; order: 2; background-color: #1a253d;border-radius: 1em;}
+div.section2 {float: right; margin-right: 10px; flex: 2; order: 3; background-color: #1a253d;border-radius: 1em;}
+div.section3 {float: top left;flex: 1; order: 3; background-color: #1a253d;border-radius: 1em;}
