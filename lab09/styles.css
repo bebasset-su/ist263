@@ -3,8 +3,7 @@ body{color: #eff1f5;}
 nav a:hover{color: #37bf2f;}
 nav a:hover{background-color: #667cac;}
 a{color: #9a9d6f;}
-h1{color: #eff1f5; text-align: center;}
-.other-skills{float: both;flex: 2; order: 2; background-color: #1a253d;border-radius: 300em; text-align: center;}
+h1{color: #eff1f5;}
 nav{background-color: #1a253d;}
 nav a{color: #9a9d6f;}
 nav{padding: 10px}
@@ -17,10 +16,3 @@ nav {margin-bottom: 30px}
 div.section1 {float: both; margin-right: 10px;flex: 2; order: 2; background-color: #1a253d;border-radius: 1em;}
 div.section2 {float: right; margin-right: 10px; flex: 2; order: 3; background-color: #1a253d;border-radius: 1em;}
 div.section3 {float: top left;flex: 1; order: 3; background-color: #1a253d;border-radius: 1em;}
-.fa-code{font-size: 35px}
-.fa-file-code{font-size: 35px}
-.fa-python{font-size: 35px}
-.fa-file-excel{font-size: 35px}
-.fa-file{font-size: 35px}
-.skills{display: flex; justify-content: space-between;text-align:center;margin-right: 10px;}
-.line1{text-align: center;}

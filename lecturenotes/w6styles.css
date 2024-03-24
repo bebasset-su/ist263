@@ -10,3 +10,7 @@ p a {color: red;}
 
 /*format for a class selector*/
 .fcolor {color: chocolate;}
+div{border: 1px solid black;}
+.exam{display: flex;}
+.Hello{flex: 3;}
+.World{flex: 1;}
